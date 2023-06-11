@@ -1,0 +1,63 @@
+body {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+ }
+ 
+ 
+ header {
+    background-color: lightblue;
+ }
+ 
+ 
+ header h1 {
+    padding: 10px;
+    margin: 0;
+ }
+ 
+ 
+ nav {
+    background-color: lightgray;
+    padding: 10px;
+ }
+ 
+ 
+ nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ 
+ nav ul li {
+    margin: 0 10px;
+ }
+ article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ 
+ article h2 {
+    font-family: Arial, sans-serif;
+    color: blue;
+ }
+ 
+ 
+ .container {
+    border: 1px solid #ccc;
+    padding: 10px;
+ }
+ 
+ 
+ footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+ }
+ .author-info {
+    font-size: small;
+    color: #999;
+    text-align: right;
+  } 

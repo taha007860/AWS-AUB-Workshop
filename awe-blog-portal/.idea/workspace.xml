@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5119ec81-c660-4165-a5df-290f90c5b362" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CreateTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/dto/PostDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/dto/PostQueryResponseDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/entity/PostEntity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/post.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/post.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/post.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/post.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/post.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php/8.2.3/bin/php" />
+  <component name="ProjectId" id="2Qpea8ndEDtSj4IceEvLpi6kivF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/sarrawat/workspace/awe-blog-portal/node_modules/prettier",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "/Users/sarrawat/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/231.8109.175/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/post" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5119ec81-c660-4165-a5df-290f90c5b362" name="Changes" comment="" />
+      <created>1686055013149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686055013149</updated>
+      <workItem from="1686055015294" duration="6082000" />
+      <workItem from="1686075306128" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

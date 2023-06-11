@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 #ccc;
+  background-color: #FFA700;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(to right, #1e376a, #6a52a2, #b19cd9); /* use a gradient from dark blue to purple */
+  min-height: 20vh; /* https://www.w3schools.com/cssref/css_units.php */
+  display: flex;
+  text-transform: uppercase; /* make the text all uppercase */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* add a subtle shadow effect */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.img{
+  margin-left: -2.2%;
+}
+.App-body {
+  background-color: #FFD700;
+  margin: 2vh;
+  min-height: 80vh; /* https://www.w3schools.com/cssref/css_units.php */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 1vmin);
+  color: black;
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  color: #61dafb;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn-6__before,
+  .btn-6__after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+    box-shadow:
+      -1px -1px 20px 0px rgba(255,255,255,1),
+      -4px -4px 5px 0px rgba(255,255,255,1),
+      7px 7px 20px 0px rgba(0,0,0,.4),
+      4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  
+  .btn-6__before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+  }
+  
+  .btn-6__after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+  }
+  
+  .btn-6:hover{
+    background: transparent;
+    color: #76aef1;
+    box-shadow: none;
+  }
+  
+  .btn-6:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  
+  .btn-6:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  
+  .btn-6 span:before,
+  .btn-6 span:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+      -1px -1px 20px 0px rgba(255,255,255,1),
+      -4px -4px 5px 0px rgba(255,255,255,1),
+      7px 7px 20px 0px rgba(0,0,0,.4),
+      4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  
+  .btn-6 span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  
+  .btn-6 span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  
+  .btn-6 span:hover:before {
+    width: 100%;
+  }
+  
+  .btn-6 span:hover:after {
+    width: 100%;
+  }
