@@ -75,13 +75,13 @@ function BlogCard(props: ButtonProps) {
             alt=""
             fluid
             className="img"
-            style={{width: "55%", height: "76%"}}
+            style={{width: "55%", height: "95%"}}
           />
         </Col>
-        <Col xs={12} md={6} className="blog-slider__content" style={{padding: "10px"}}>
-          <span className="blog-slider__code" style={{padding: "10px"}}>{blogPost1?.author}</span>
-          <div className="blog-slider__title" style={{padding: "10px"}}>{blogPost1?.title}</div>
-          <div className="blog-slider__text" style={{padding: "10px"}}>
+        <Col xs={12} md={6} className="blog-slider__content" style={{padding: "1rem"}}>
+          <span className="blog-slider__code" style={{padding: "0.5rem"}}>{blogPost1?.author}</span>
+          <div className="blog-slider__title" style={{padding: "0.5rem"}}>{blogPost1?.title}</div>
+          <div className="blog-slider__text" style={{padding: "0.5rem", fontSize: "14px"}}>
             {blogPost1?.text}
           </div>
           <Button onClick={props.togglePopup} variant="primary" className="blog-slider__button btn-6" style={{ 
@@ -89,7 +89,7 @@ function BlogCard(props: ButtonProps) {
   height: "20%",
   color: "#fff",
   borderRadius: "5px",
-  padding: "10px 25px",
+  padding: "0.2rem 1rem",
   fontFamily: "'Lato', sans-serif",
   fontWeight: 500,
   background: "rgb(247,150,192)",
@@ -102,7 +102,8 @@ function BlogCard(props: ButtonProps) {
   outline: "none",
   cursor: "pointer",
   transition: "all 0.3s ease",
-  marginTop: "30px"
+  marginTop: "0",
+  marginLeft: "0.4rem"
 }}>
   <span>READ MORE</span>
   <span className="btn-6__before"></span>
@@ -120,10 +121,10 @@ function BlogCard(props: ButtonProps) {
             style={{height: "100%", width: "55%"}}
           />
         </Col>
-        <Col xs={12} md={6} className="blog-slider__content" style={{padding: "10px"}}>
-          <span className="blog-slider__code" style={{padding: "10px"}}>{blogPost2?.author}</span>
-          <div className="blog-slider__title" style={{padding: "10px"}}>{blogPost2?.title}</div>
-          <div className="blog-slider__text" style={{padding: "10px"}}>
+        <Col xs={12} md={6} className="blog-slider__content" style={{padding: "1ren"}}>
+          <span className="blog-slider__code" style={{padding: "0.5rem"}}>{blogPost2?.author}</span>
+          <div className="blog-slider__title" style={{padding: "0.5rem"}}>{blogPost2?.title}</div>
+          <div className="blog-slider__text" style={{padding: "0.5rem", fontSize: "14px"}}>
             {blogPost2?.text}
           </div>
           <Button onClick={props.togglePopup} variant="primary" className="blog-slider__button btn-6" style={{ 
@@ -131,7 +132,7 @@ function BlogCard(props: ButtonProps) {
   height: "26%",
   color: "#fff",
   borderRadius: "5px",
-  padding: "10px 25px",
+  padding: "0.2rem 1rem",
   fontFamily: "'Lato', sans-serif",
   fontWeight: 500,
   background: "rgb(247,150,192)",
@@ -144,7 +145,8 @@ function BlogCard(props: ButtonProps) {
   outline: "none",
   cursor: "pointer",
   transition: "all 0.3s ease",
-  marginTop: "30px"
+  marginTop: "0px",
+  marginLeft: "0.4rem"
 }}>
   <span>READ MORE</span>
   <span className="btn-6__before"></span>
@@ -162,10 +164,10 @@ function BlogCard(props: ButtonProps) {
             style={{height: "100%", width: "55%"}}
           />
         </Col>
-        <Col xs={12} md={6} className="blog-slider__content" style={{padding: "10px"}}>
-          <span className="blog-slider__code" style={{padding: "10px"}}>{blogPost3?.author}</span>
-          <div className="blog-slider__title" style={{padding: "10px"}}>{blogPost3?.title}</div>
-          <div className="blog-slider__text" style={{padding: "10px"}}>
+        <Col xs={12} md={6} className="blog-slider__content" style={{padding: "1rem"}}>
+          <span className="blog-slider__code" style={{padding: "0.5rem"}}>{blogPost3?.author}</span>
+          <div className="blog-slider__title" style={{padding: "0.5rem"}}>{blogPost3?.title}</div>
+          <div className="blog-slider__text" style={{padding: "0.5rem", fontSize: "14px"}}>
             {blogPost3?.text}
           </div>
           <Button onClick={props.togglePopup} variant="primary" className="blog-slider__button btn-6" style={{ 
@@ -173,7 +175,7 @@ function BlogCard(props: ButtonProps) {
   height: "26%",
   color: "#fff",
   borderRadius: "5px",
-  padding: "10px 25px",
+  padding: "0.2rem 1rem",
   fontFamily: "'Lato', sans-serif",
   fontWeight: 500,
   background: "rgb(247,150,192)",
@@ -186,7 +188,8 @@ function BlogCard(props: ButtonProps) {
   outline: "none",
   cursor: "pointer",
   transition: "all 0.3s ease",
-  marginTop: "30px"
+  marginTop: "0px",
+  marginLeft: "0.4rem"
 }}>
   <span>READ MORE</span>
   <span className="btn-6__before"></span>

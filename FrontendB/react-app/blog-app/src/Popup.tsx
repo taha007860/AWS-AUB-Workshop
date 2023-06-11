@@ -14,9 +14,9 @@ function Popup(props: PopupProps) {
         <Modal.Title>{props.text}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Button variant="primary" onClick={props.togglePopup}>
-          Close me
-        </Button>
+      <p>
+          Read more on <a href={"https://practicalwanderlust.com/new-england-road-trip/"}>{"https://practicalwanderlust.com/new-england-road-trip/"}</a>
+      </p>
       </Modal.Body>
     </Modal>
   );

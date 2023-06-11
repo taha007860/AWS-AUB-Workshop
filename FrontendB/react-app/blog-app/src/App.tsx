@@ -20,7 +20,7 @@ function App() {
     useEffect(() => {
         fetchBlogPosts();
       }, []);      
-  const yourName = 'Mohammad';
+  const Name = 'My Friends';
   const onFormSubmit = (post: PostDTO) => {
     fetch("http://localhost:3000/post", {
         method: "POST",
@@ -35,10 +35,10 @@ function App() {
 
   return (
     <div className='App'>
-      <header className='App-header'>{yourName + "'s Personal Travel Blog"}</header>
+      <header className='App-header'>{Name + "' Personal Travel Blogs"}</header>
       <body className='App-body'>
         <BlogCard togglePopup={togglePopup}/>
-        {showPopup && <Popup text="Hello" togglePopup={togglePopup}/>}
+        {showPopup && <Popup text="Excited to Explore?!" togglePopup={togglePopup}/>}
         <BlogPostForm onPostSubmit={onFormSubmit} />
         {blogPosts === null ? (
           <div>Loading...</div>
